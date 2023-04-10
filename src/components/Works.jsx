@@ -34,7 +34,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 150,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[390px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -95,7 +95,7 @@ const ProjectCard = ({
 };
 
 const Works = () => {
-  const fadeInVariant = isMobile ? mobileFadeInVariant : fadeIn("", "", 0.1, 1);
+    const fadeInVariant = isMobile ? mobileFadeInVariant : fadeIn("", "", 0.1, 1);
 
   return (
     <>
