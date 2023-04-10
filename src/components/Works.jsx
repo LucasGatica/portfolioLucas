@@ -99,7 +99,7 @@ const Works = () => {
 
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={fadeInVariant}>
         <p className={`${styles.sectionSubText} `}>Meus trabalhos</p>
         <h2 className={`${styles.sectionHeadText}`}>Projetos.</h2>
       </motion.div>
