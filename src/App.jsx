@@ -1,4 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
+import { isMobile } from "react-device-detect";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
@@ -10,7 +11,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <StarsCanvas />
+        {!isMobile && <StarsCanvas />}
         <About />
         <Experience />
         <Tech />
